@@ -1,0 +1,139 @@
+{
+  "id": "0dfb6761-e689-4bb4-a18c-5ff373dc961e",
+  "version": "2.0",
+  "name": "selenium_swati_assign",
+  "url": "https://www.cbse.gov.in",
+  "tests": [{
+    "id": "0faae2f4-825b-41b8-b417-c971d89f6883",
+    "name": "testing_assign",
+    "commands": [{
+      "id": "48cce712-8baa-495b-9131-c6a2d06f273d",
+      "comment": "",
+      "command": "open",
+      "target": "/cbsenew/question-paper.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf1ef49b-37af-4814-bb9a-8e35fab4fc26",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "785x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1256b6f8-0ebc-40d0-80e5-e403c6e0203a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#cbp-ntaccordion > li:nth-child(2) > .cbp-nttrigger",
+      "targets": [
+        ["css=#cbp-ntaccordion > li:nth-child(2) > .cbp-nttrigger", "css:finder"],
+        ["xpath=//ul[@id='cbp-ntaccordion']/li/h3", "xpath:idRelative"],
+        ["xpath=//li/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Question Papers for Compartment Examination 2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf24f186-418d-41b8-b809-fb9f4db4a857",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cbp-ntopen li:nth-child(1) > .cbp-nttrigger",
+      "targets": [
+        ["css=.cbp-ntopen li:nth-child(1) > .cbp-nttrigger", "css:finder"],
+        ["xpath=//ul[@id='cbp-ntaccordion']/li/div/ul/li/h4", "xpath:idRelative"],
+        ["xpath=//h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Class XII')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b504839-19b1-479f-9a37-173032d0ea94",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Download",
+      "targets": [
+        ["linkText=Download", "linkText"],
+        ["css=.cbp-ntopen > .cbp-ntcontent > .container tr:nth-child(2) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Download')]", "xpath:link"],
+        ["xpath=//ul[@id='cbp-ntaccordion']/li/div/ul/li/div/div[2]/table/tbody/tr[2]/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'question-paper/2023-COMPTT/XII/Accountancy.zip')]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Download')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2952",
+      "windowTimeout": 2000
+    }, {
+      "id": "d6ecaaa4-0490-4314-978c-eb678a36f3ed",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49ae181d-300b-424d-be52-16a49a48f347",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6378e8ac-f052-45b8-a167-22287f83ff22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cbp-ntopen > .cbp-ntcontent > .container tr:nth-child(3) a",
+      "targets": [
+        ["css=.cbp-ntopen > .cbp-ntcontent > .container tr:nth-child(3) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Download')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='cbp-ntaccordion']/li/div/ul/li/div/div[2]/table/tbody/tr[3]/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'question-paper/2023-COMPTT/XII/AGRICULTURE.zip')]", "xpath:href"],
+        ["xpath=//tr[3]/td[2]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win285",
+      "windowTimeout": 2000
+    }, {
+      "id": "777754c5-2301-4506-874f-2616c7a6bfa1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cbp-ntopen > .cbp-ntcontent > .container tr:nth-child(5) a",
+      "targets": [
+        ["css=.cbp-ntopen > .cbp-ntcontent > .container tr:nth-child(5) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Download')])[4]", "xpath:link"],
+        ["xpath=//ul[@id='cbp-ntaccordion']/li/div/ul/li/div/div[2]/table/tbody/tr[5]/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'question-paper/2023-COMPTT/XII/AUTOMOTIVE.zip')]", "xpath:href"],
+        ["xpath=//tr[5]/td[2]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5184",
+      "windowTimeout": 2000
+    }, {
+      "id": "c7c63129-07b2-48b1-bd19-83ec732a7d7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cbp-ntopen > .cbp-ntcontent > .container tr:nth-child(7) a",
+      "targets": [
+        ["css=.cbp-ntopen > .cbp-ntcontent > .container tr:nth-child(7) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Download')])[6]", "xpath:link"],
+        ["xpath=//ul[@id='cbp-ntaccordion']/li/div/ul/li/div/div[2]/table/tbody/tr[7]/td[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'question-paper/2023-COMPTT/XII/BHARATANATYAM_DANCE.zip')]", "xpath:href"],
+        ["xpath=//tr[7]/td[2]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3255",
+      "windowTimeout": 2000
+    }]
+  }],
+  "suites": [{
+    "id": "3a52fb83-36d0-48df-8cad-d93547ec96eb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0faae2f4-825b-41b8-b417-c971d89f6883"]
+  }],
+  "urls": ["https://www.cbse.gov.in/"],
+  "plugins": []
+}
